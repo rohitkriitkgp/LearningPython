@@ -30,7 +30,8 @@ while (Actual_Time != Set_Alarm):
 # alarm time and executes the code within it.
 if (Actual_Time == Set_Alarm):
     print "You should see your webpage now :-)"
- 
+    # change your browser if you want 
+    br = webbrowser.get("safari")
     # We are calling the open()
     # function from the webrowser module.
-    webbrowser.open(url)
+    br.open(url)
